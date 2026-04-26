@@ -1,0 +1,25 @@
+# Rust build artifacts
+target/
+**/*.rs.bk
+*.pdb
+
+# Cargo.lock (uncomment if building a library)
+# Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+log/
+*.log
+
+# Demo artifacts
+/tmp/shadow-demo/
